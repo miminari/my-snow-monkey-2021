@@ -1,0 +1,17 @@
+{
+    "core": "WordPress/WordPress#master",
+    "plugins": [
+        "./wp-content/plugins/snow-monkey-diet",
+        "./",
+        "https://downloads.wordpress.org/plugin/gutenberg.zip"
+    ],
+    "themes": [
+        "./wp-content/themes/snow-monkey"
+    ],
+    "port": 9999,
+    "env": {
+        "tests": {
+            "port": 9988
+        }
+    }
+}
